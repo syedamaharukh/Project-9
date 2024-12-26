@@ -1,0 +1,58 @@
+.App {
+  font-style: italic;
+  text-align: center;
+  padding: 30px;
+}
+
+.product-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.product-card {
+  border: 3px solid #ddd;
+  border-radius: 10px;
+  padding: 12px;
+  width: 220px;
+  background-color: #fff;
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.product-card h2 {
+  font-size: 18px;
+  margin: 12px 0 6px;
+  color: #333;
+}
+
+.product-card p {
+  font-size: 14px;
+  color: #666;
+  margin: 6px 0;
+}
+
+.product-card .price {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #000;
+}
+.product-card button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #5e9bc3;
+  color: black;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
